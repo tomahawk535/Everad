@@ -7,8 +7,18 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+
+
     <!-- stylesheet -->
     <link rel="stylesheet" href="style/style.min.css">
+    <link rel="stylesheet" href="style/fontawesome-free-5.15.2-web/css/all.css">
+
+
 </head>
 <body>
     <header>
@@ -24,61 +34,88 @@
         </nav>
     </header>
     <article>
-        <h1>Суши-шмастер - лучшее, что есть в твоем городе<br>
-            Порадуй себя и своих родных и близких</h1>
-        <p>Ниже представлены наши самые популярные позиции
-            за последние полгода работы на карантине</p>
-        <div class="proposal">
-            <h3>Актуальные позиции</h3>
-            <div class="proposal_item">
-                <picture>
-                    <source srcset="img/other/s3_21.png" type="image/png">
-                    <img src="img/webp/s3_21.webp" alt="clown fish">
-                </picture>
-                <h4>Гринобль ролл</h4>
-                <p>Закажи сей вкусный ролл,<br>
-                    Он украсит ваший стол,<br>
-                    Он порадует ваш глаз,<br>
-                    Получи скорей экстаз!</p>
-                <a href="#" class="proposal_active">Заказать</a>
+        <div class="info">
+            <h1>Суши-шмастер - лучшее, что есть в твоем городе<br>
+                Порадуй себя и своих родных и близких</h1>
+            <p>Ниже представлены наши самые популярные позиции
+                за последние полгода работы на карантине</p>
+            <div class="proposal">
+                <h3>Актуальные позиции</h3>
+                <div class="proposal_item">
+                    <picture>
+                        <source srcset="img/other/s3_21.png" type="image/png">
+                        <img src="img/webp/s3_21.webp" alt="grinobl roll">
+                    </picture>
+                    <h4>Гринобль ролл</h4>
+                    <p>Закажи сей вкусный ролл,<br>
+                        Он украсит ваший стол,<br>
+                        Он порадует ваш глаз,<br>
+                        Получи скорей экстаз!</p>
+                    <a href="#" class="proposal_active">Заказать</a>
+                </div>
+                <div class="proposal_item">
+                    <picture>
+                        <source srcset="img/other/s1_23.png" type="image/png">
+                        <img src="img/webp/s1_23.webp" alt="clown fish">
+                    </picture>
+                    <h4>Оранжад ролл</h4>
+                    <p>Закажи сей вкусный ролл,<br>
+                        Он украсит ваший стол,<br>
+                        Он порадует ваш глаз,<br>
+                        Получи скорей экстаз!</p>
+                    <a href="#" class="proposal_not_active">Недоступно к заказу</a>
+                </div>
+                <div class="proposal_item">
+                    <picture>
+                        <source srcset="img/other/s2_22.png" type="image/png">
+                        <img src="img/webp/s2_22.webp" alt="clown fish">
+                    </picture>
+                    <h4>Брауни рол</h4>
+                    <p>Закажи сей вкусный ролл,<br>
+                        Он украсит ваший стол,<br>
+                        Он порадует ваш глаз,<br>
+                        Получи скорей экстаз!</p>
+                    <a href="#" class="proposal_not_active">Недоступно к заказу</a>
+                </div>
+                <div class="proposal_item super-set">
+                    <picture>
+                        <source srcset="img/other/s44_101.png" type="image/png">
+                        <img src="img/webp/s44_101.webp" alt="super set">
+                    </picture>
+                </div>
             </div>
-            <div class="proposal_item">
-                <picture>
-                    <source srcset="img/other/s1_23.png" type="image/png">
-                    <img src="img/webp/s1_23.webp" alt="clown fish">
-                </picture>
-                <h4>Оранжад ролл</h4>
-                <p>Закажи сей вкусный ролл,<br>
-                    Он украсит ваший стол,<br>
-                    Он порадует ваш глаз,<br>
-                    Получи скорей экстаз!</p>
-                <a href="#" class="proposal_not_active">Заказать</a>
-            </div>
-            <div class="proposal_item">
-                <picture>
-                    <source srcset="img/other/s2_22.png" type="image/png">
-                    <img src="img/webp/s2_22.webp" alt="clown fish">
-                </picture>
-                <h4>Брауни рол</h4>
-                <p>Закажи сей вкусный ролл,<br>
-                    Он украсит ваший стол,<br>
-                    Он порадует ваш глаз,<br>
-                    Получи скорей экстаз!</p>
-                <a href="#" class="proposal_not_active">Заказать</a>
-            </div>
-            <div class="proposal_item super-set">
-                <picture>
-                    <source srcset="img/other/s44_101.png" type="image/png">
-                    <img src="img/webp/s44_101.webp" alt="clown fish">
-                </picture>
+        </div>
+        <div class="promotions">
+            <h2>Самые выгодные предложения:</h2>
+            <div class="slick">
+                <div class="slick-item">
+                    <picture>
+                        <source srcset="img/other/dorado_u_nas_kak_feromony__79.png" type="image/png">
+                        <img src="img/webp/dorado_u_nas_kak_feromony_79.webp" alt="clown fish">
+                    </picture>
+                </div>
+                <div class="slick-item">
+                    <picture>
+                        <source srcset="img/other/krevetki_73.png" type="image/png">
+                        <img src="img/webp/krevetki_73.webp" alt="clown fish">
+                    </picture>
+                </div>
+                <div class="slick-item">
+                    <picture>
+                        <source srcset="img/other/poluchi_v_podarok__vodku__66.png" type="image/png">
+                        <img src="img/webp/poluchi_v_podarok_vodku_66.webp" alt="">
+                    </picture>
+                </div>
             </div>
         </div>
     </article>
+    <footer>
+        <p class="copy"></p>
+    </footer>
 
-
-
-
-    <!-- custom script -->
-<!--    <script src="src/js/index.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<!--     custom script -->
+    <script src="js/index.min.js"></script>
 </body>
 </html>
