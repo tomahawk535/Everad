@@ -1,0 +1,98 @@
+$header-bg: #0072bc;
+$btn-bg: #f26522;
+$btn-text-color: #fdfafa;
+$header-text-color: #fff;
+$brand-font: 1rem;
+$btn-font: 1.125rem;
+$font: 'PT Sans', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  background-color:  $header-bg;
+  nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1.5625rem 5%;
+    .brand, .order {
+      align-self: center;
+    }
+    .brand {
+      color:  $header-text-color;
+      font-size:  $brand-font;
+      font-weight: bold;
+      text-decoration: none;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+
+      .brand_name {
+        align-self: center;
+        font-family:  $font;
+        font-size: $btn-font;
+        flex-basis: 100%;
+      }
+      picture{
+        flex-basis: 30%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .order {
+      font-family: $font;
+      font-size: $btn-font;
+      color:  $btn-text-color;
+      background-color: $btn-bg;
+      padding: 0.8rem 1rem;
+      border: none;
+      outline: none;
+      flex-basis: 10%;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media all and (min-width: 599px){
+  header {
+    nav {
+      .brand {
+        .brand_name {
+          flex-basis: 50%;
+          margin-left: 0.625rem;
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: 1200px) {
+  header {
+    nav {
+      padding: 1.5625rem 20%;
+      .order {
+        flex-basis: 20%;
+      }
+        img {
+          width: 70%;
+        }
+    }
+  }
+}
+
+@media all and (min-width: 1800px) {
+  header {
+    nav {
+      padding: 1.5625rem 30%;
+    }
+  }
+}
