@@ -1,5 +1,8 @@
 $header-bg: #0072bc;
 $btn-bg: #f26522;
+$article-bg: #fff;
+$article-text-color: #080808;
+$article-item-text-color: #333333;
 $btn-text-color: #fdfafa;
 $header-text-color: #fff;
 $brand-font: 1rem;
@@ -57,6 +60,40 @@ header {
       flex-basis: 10%;
       &:hover{
         cursor: pointer;
+      }
+    }
+  }
+}
+article {
+  width: 100%;
+  padding: 1.5625rem 5%;
+  font-family:  $font;
+  background-color: $article-bg;
+  h1 {
+    font-size: 1.625rem;
+    text-align: center;
+    margin-bottom: 3.125rem;
+    color: $article-text-color;
+  }
+  p{
+    text-align: center;
+    color:  $article-text-color;
+    font-size: 1rem;
+    line-height: 1.125rem;
+  }
+  .proposal {
+    padding: 2.5rem 5%;
+    .proposal_item {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 1rem;
+      border: 2px solid #acacac;
+      border-radius: 0.625rem;
+      padding: 0.75rem;
+      img {
+        width: 100%;
       }
     }
   }
