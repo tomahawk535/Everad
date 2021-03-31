@@ -1,0 +1,28 @@
+   /* ------- Инлайн стили с html ----*/
+.footer {
+   font: 400 16px / 1 Helvetica, Arial, sans-serif;
+   max-width: 100%;
+   width: 100%;
+   text-align: center;
+   color: rgb(71, 71, 71);
+   padding: 40px 0px;
+   margin: 0px auto;
+   background: rgb(255, 255, 255);
+   direction: ltr;
+   text-transform: none;
+}
+hr {
+   border: #cc0000 1px solid
+}
+.comments-flex a {
+   color: #000;
+}
+.comments-avatar img {
+   border-radius:24px;
+}
+.lt32 {
+   color: darkred;
+}
+.lt36 {
+   color: red;
+}
